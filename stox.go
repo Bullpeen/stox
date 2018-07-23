@@ -14,7 +14,7 @@ import (
 var client *av.Client = nil
 
 func ValidSym(s string) bool {
-	if len(s) > 5 {
+	if len(s) > 5 || len(s) < 1 {
 		return false
 	}
 
