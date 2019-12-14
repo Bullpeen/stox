@@ -6,7 +6,7 @@ import (
 	"context"
 	"math"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/jirwin/quadlek/quadlek"
 	"github.com/cmckee-dev/go-alpha-vantage"
 )
